@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Proyecto005">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Control Spinner"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eTPrimero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el primer valor"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eTSegundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el segundo valor"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spOperaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bOperar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="operar"
+        android:text="Operar" />
+
+    <TextView
+        android:id="@+id/tVResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Resultdado" />
+
+</LinearLayout>
