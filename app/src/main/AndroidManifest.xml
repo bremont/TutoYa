@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tutoandroidya.app.jesusbremont.com.tutoya">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,7 +29,9 @@
         <activity android:name=".Proyecto010" />
         <activity android:name=".activity_acerca_de" />
         <activity android:name=".Proyecto011" />
-        <activity android:name=".Proyecto011_ppl"></activity>
+        <activity android:name=".Proyecto011_ppl" />
+        <activity android:name=".Proyecto012" />
+        <activity android:name=".Proyecto012_web"></activity>
     </application>
 
 </manifest>

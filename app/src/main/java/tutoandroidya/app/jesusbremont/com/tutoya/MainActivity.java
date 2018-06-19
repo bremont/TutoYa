@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         String[] lstProyectos = new String[]{
                 "Proyecto 001", "Proyecto 002","Proyecto 003","Proyecto 004",
                 "Proyecto 005", "Proyecto 006", "Proyecto 007", "Proyecto 008",
-                "Proyecto 009","Proyecto 010","Proyecto 011"
+                "Proyecto 009","Proyecto 010","Proyecto 011", "Proyecto 012"
         };
         lVProyectos = (ListView) findViewById(R.id.lVProyectos);
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lstProyectos);
@@ -76,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
                         i = new Intent(MainActivity.this, Proyecto011.class);
                         startActivity(i);
                         break;
+                    case 11:
+                        i = new Intent(MainActivity.this, Proyecto012.class);
+                        startActivity(i);
+                        break;
+
 
 
                 }
